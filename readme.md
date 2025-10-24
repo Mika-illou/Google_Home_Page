@@ -137,4 +137,8 @@ La règle @media adapte la mise en page pour les écrans mobiles en réduisant l
 
 
 
-Ce projet démontre la maîtrise des fondations du front-end : structure sémantique HTML5, mise en page en Flexbox, et adaptation responsive. Le résultat est une page fidèle à l’interface originale de Google, à la fois simple, esthétique et compatible sur tout appareil.
+Ce projet démontre la maîtrise des fondations du front-end : structure sémantique HTML, mise en page en Flexbox, et adaptation responsive. Le résultat est une page fidèle à l’interface originale de Google, à la fois simple, esthétique et compatible sur tout appareil.
+
+
+[Capture_1](./image/Capture_1.png)
+[Capture_2](./image/Capture_2.png)
