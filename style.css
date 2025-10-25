@@ -24,7 +24,7 @@ body {
     justify-content: end;
     align-items: end;
     height: 100%;
-    width: 100%;
+    width: 90%;
 }
 .nav{
     display: flex;
@@ -87,7 +87,7 @@ body {
     color: #EA4335;
 }
 input{
-    width: 900px;
+    width: 700px;
     height: 50px;
     border-radius: 30px;
     margin-top: 40px;
@@ -96,6 +96,8 @@ input{
     padding-left: 20px;
     border: solid;
     border-color:#f1f3f4; 
+    outline-color: rgb(53, 53, 223);
+    box-shadow: 1px 2px 5px 1px rgb(118, 118, 207);
 }
 ::placeholder{
     font-size: 25px;
@@ -154,10 +156,10 @@ input{
         width: 90%;
     }
     .logo {
-        font-size: 45px;
+        font-size: 90px;
     }
     input{
-    width: 280px;
+    width: 480px;
     }
    .A{
     display: flex;
@@ -166,3 +168,40 @@ input{
     text-align: center;
    }
    }
+   @media (max-width:425px) {
+    .logo {
+        font-size: 80px;
+    }
+    input{
+    width: 350px;
+    }
+    .button_1, .button_2 {
+    font-size: 10px;
+    background-color: #f1f3f4;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+}
+@media (max-width:375px){
+    
+.logo {
+        font-size: 70px;
+    }
+    input{
+    width: 280px;
+    }
+    .button_1, .button_2 {
+    font-size: 7px;
+    background-color: #f1f3f4;
+    width: 75px;
+    height: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+}
